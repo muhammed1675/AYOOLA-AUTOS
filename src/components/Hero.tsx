@@ -6,7 +6,7 @@ export function Hero() {
       {/* Background image — replace src with your AI-generated image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1631295868223-63265b40d9e4?auto=format&fit=crop&w=2400&q=80"
+          src="images/hero-bg.jpg"
           alt="Luxury copper-colored coupe parked in a lush Italian garden at dusk"
           className="w-full h-full object-cover object-center" />
         
