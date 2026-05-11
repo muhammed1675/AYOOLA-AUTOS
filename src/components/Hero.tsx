@@ -1,15 +1,17 @@
-import React from 'react';
-import { ArrowUpRightIcon } from 'lucide-react';
+import React from "react";
+import { ArrowUpRightIcon } from "lucide-react";
+import hero from "../assets/hero.jpg";
 export function Hero() {
   return (
     <section className="relative w-full bg-ink-deep text-white overflow-hidden min-h-[680px] md:min-h-[760px] lg:min-h-[820px]">
       {/* Background image — replace src with your AI-generated image */}
       <div className="absolute inset-0">
         <img
-          src="images/hero-bg.jpg"
+          src={hero}
           alt="Luxury copper-colored coupe parked in a lush Italian garden at dusk"
-          className="w-full h-full object-cover object-center" />
-        
+          className="w-full h-full object-cover object-center"
+        />
+
         {/* Subtle top/bottom darkening so header + heading + descriptor stay legible */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/10 to-black/55" />
       </div>
@@ -27,8 +29,8 @@ export function Hero() {
             <div className="mt-7">
               <a
                 href="#booking"
-                className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white text-sm font-medium rounded-full px-7 py-3 transition-colors shadow-sm">
-                
+                className="inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white text-sm font-medium rounded-full px-7 py-3 transition-colors shadow-sm"
+              >
                 Rent Now
               </a>
             </div>
@@ -44,8 +46,8 @@ export function Hero() {
                 <button
                   type="button"
                   aria-label="View details"
-                  className="w-8 h-8 rounded-full bg-ink text-white flex items-center justify-center hover:bg-ink-soft transition-colors">
-                  
+                  className="w-8 h-8 rounded-full bg-ink text-white flex items-center justify-center hover:bg-ink-soft transition-colors"
+                >
                   <ArrowUpRightIcon className="w-3.5 h-3.5" />
                 </button>
               </div>
@@ -53,8 +55,8 @@ export function Hero() {
                 <img
                   src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=900&q=80"
                   alt="White luxury convertible"
-                  className="w-full h-28 object-cover" />
-                
+                  className="w-full h-28 object-cover"
+                />
               </div>
             </div>
           </div>
@@ -69,6 +71,6 @@ export function Hero() {
           </p>
         </div>
       </div>
-    </section>);
-
+    </section>
+  );
 }
