@@ -28,7 +28,7 @@ export function AboutUs() {
         <div className="grid grid-cols-2 gap-4">
           <div className="row-span-2 rounded-2xl overflow-hidden bg-cream">
             <img
-              src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=900&q=80"
+              src="images/about1.jpg"
               alt="Green Bentley-style luxury coupe parked outside a classic Italian building"
               className="w-full h-full object-cover min-h-[280px]" />
             
@@ -43,7 +43,7 @@ export function AboutUs() {
           </div>
           <div className="rounded-2xl overflow-hidden bg-cream">
             <img
-              src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80"
+              src="images/about2.jpg"
               alt="Silver luxury convertible"
               className="w-full h-full object-cover min-h-[170px]" />
             
