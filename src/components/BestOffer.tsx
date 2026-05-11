@@ -28,7 +28,7 @@ export function BestOffer() {
             {/* Image */}
             <div className="h-full">
               <img
-                src="https://images.unsplash.com/photo-1631295868781-cd2c8b15e7f3?auto=format&fit=crop&w=1400&q=80"
+                src="images/best-offer.jpg"
                 alt="Dark blue Bentley Flying Spur luxury sedan"
                 className="w-full h-full object-cover object-center min-h-[260px] md:min-h-[340px]" />
               
